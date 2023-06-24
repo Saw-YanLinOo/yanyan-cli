@@ -14,7 +14,7 @@ If the CLI application is available on [pub](https://pub.dev), activate globally
 dart pub global activate yanyan
 ```
 
-Or locally via:
+Or github via:
 
 ```sh
 dart pub global activate --source <git-url>
@@ -27,10 +27,13 @@ dart pub global activate --source <git-url>
 $ yanyan doctor
 
 # Create command 
-$ yanyan create <sub-command>
+$ yanyan create <sub-command> <project-name>
 
 # Show CLI version
 $ yanyan --version
+
+# Update command
+$ yanyan update
 
 # Show usage help
 $ yanyan --help
